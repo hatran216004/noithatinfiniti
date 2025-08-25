@@ -150,9 +150,9 @@ a {
 }
 
 .header__logo img {
-  width: 7.2rem;
-  height: 7.2rem;
-  object-fit: cover;
+  width: 140px;
+  height: 62px;
+  object-fit: contain;
 }
 
 .navbar__list {
@@ -225,7 +225,7 @@ a {
 
 .hero__heading {
   font-family: var(--font-heading);
-  font-size: 64px;
+  font-size: 5.8rem;
   font-weight: 700;
   line-height: 1.1;
   color: var(--text-dark);
@@ -311,7 +311,7 @@ a {
 
 .services__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
@@ -644,10 +644,15 @@ a {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.footer__social img {
+  width: 24px;
+  height: 24px;
 }
 
 .footer__social:hover {
-  background: var(--secondary-color);
   transform: translateY(-2px);
 }
 

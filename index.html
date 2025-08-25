@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LU Design - Thiết Kế Nội Thất Cao Cấp</title>
     <!-- Embed Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="./assets/fonts/times.ttf" />
+
     <link rel="stylesheet" href="./assets/CSS/reset.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <!-- Animations -->
@@ -22,8 +18,7 @@
       <div class="container">
         <div class="header-top">
           <a href="#" class="header__logo">
-            <span>LU</span>
-            <img src="./assets/img/logo-LU-full.png" alt="" />
+            <img src="./assets/img/logo.png" alt="" />
           </a>
           <navbar class="navbar">
             <ul class="navbar__list">
@@ -57,8 +52,8 @@
           <div class="hero__inner">
             <section class="hero-content">
               <h1 class="hero__heading" data-aos="fade-up">
-                Thiết kế & thi công nội thất<br />
-                <span style="color: var(--secondary-color)">cao cấp</span><br />
+                Thiết kế & thi công nội thất
+                <span style="color: var(--secondary-color)">cao cấp</span>
                 cho căn hộ Infiniti Quận 7
               </h1>
               <p class="hero__desc" data-aos="fade-up" data-aos-delay="100">
@@ -210,6 +205,36 @@
                 </p>
               </section>
             </article>
+
+            <article
+              class="services-item"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <figure class="services-item__thumb">
+                <img
+                  src="./assets/img/sevices_3.avif"
+                  alt="Thiết kế nhà phố"
+                  class="services-item__img"
+                />Biệt thự Modern Classic Biệt thự Modern Classic Phong cách
+                hiện đại kết hợp cổ điển sang trọng Penthouse Indochine
+                Penthouse Indochine Nét đẹp Đông Dương trong không gian hiện đại
+                Nhà phố Contemporary Nhà phố Contemporary Thiết kế đương đại tối
+                giản và tinh tế Villa Luxury Resort Villa Luxury Resort Không
+                gian nghỉ dưỡng đẳng cấp quốc tế Liên hệ tư vấn Bắt đầu hành
+                trình tạo nên không gian mơ ước
+              </figure>
+              <section class="services-info">
+                <h3 class="services-info__heading">Căn hộ cao cấp</h3>
+                <p class="services-info__desc line-clamp">
+                  Penthouse Infiniti Quận 7 được LU Interior biến hóa thành
+                  tuyệt tác sống giữa tầng mây, với thiết kế tinh tế, vật liệu
+                  thượng hạng và không gian mở đón trọn vẹn ánh sáng trời. Đây
+                  chính là biểu tượng của đẳng cấp và phong cách sống thượng
+                  lưu.
+                </p>
+              </section>
+            </article>
           </div>
         </div>
       </section>
@@ -286,13 +311,15 @@
             <article class="portfolio-item" data-aos="fade-up">
               <figure class="portfolio-item__thumb">
                 <img
-                  src="./assets/img/protfolio_1.avif"
-                  alt="Biệt thự Modern Classic"
+                  src="./assets/img/protfolio_1.jpg"
+                  alt="Duplex The View Riviera Point - Mordern"
                   class="portfolio-item__img"
                 />
               </figure>
               <div class="portfolio-item__overlay">
-                <h3 class="portfolio-item__title">Biệt thự Modern Classic</h3>
+                <h3 class="portfolio-item__title">
+                  Duplex The View Riviera Point - Mordern
+                </h3>
                 <p class="portfolio-item__desc">
                   Phong cách hiện đại kết hợp cổ điển sang trọng
                 </p>
@@ -305,13 +332,15 @@
             >
               <figure class="portfolio-item__thumb">
                 <img
-                  src="./assets/img/protfolio_2.avif"
-                  alt="Penthouse Indochine"
+                  src="./assets/img/protfolio_2.jpg"
+                  alt="Penthouse Quận 7 - Modern Luxury"
                   class="portfolio-item__img"
                 />
               </figure>
               <div class="portfolio-item__overlay">
-                <h3 class="portfolio-item__title">Penthouse Indochine</h3>
+                <h3 class="portfolio-item__title">
+                  Penthouse Quận 7 - Modern Luxury
+                </h3>
                 <p class="portfolio-item__desc">
                   Nét đẹp Đông Dương trong không gian hiện đại
                 </p>
@@ -324,13 +353,15 @@
             >
               <figure class="portfolio-item__thumb">
                 <img
-                  src="./assets/img/protfolio_3.avif"
-                  alt="Nhà phố Contemporary"
+                  src="./assets/img/protfolio_3.jpg"
+                  alt="Căn Hộ Feliz En Vista - Indochine"
                   class="portfolio-item__img"
                 />
               </figure>
               <div class="portfolio-item__overlay">
-                <h3 class="portfolio-item__title">Nhà phố Contemporary</h3>
+                <h3 class="portfolio-item__title">
+                  Căn Hộ Feliz En Vista - Indochine
+                </h3>
                 <p class="portfolio-item__desc">
                   Thiết kế đương đại tối giản và tinh tế
                 </p>
@@ -344,12 +375,59 @@
               <figure class="portfolio-item__thumb">
                 <img
                   src="./assets/img/protfolio_4.jpg"
-                  alt="Villa Luxury Resort"
+                  alt="Căn Hộ Sunwah - Modern Classic"
                   class="portfolio-item__img"
                 />
               </figure>
               <div class="portfolio-item__overlay">
-                <h3 class="portfolio-item__title">Villa Luxury Resort</h3>
+                <h3 class="portfolio-item__title">
+                  Căn Hộ Sunwah - Modern Classic
+                </h3>
+                <p class="portfolio-item__desc">
+                  Không gian nghỉ dưỡng đẳng cấp quốc tế
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="portfolio-item"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <figure class="portfolio-item__thumb">
+                <img
+                  src="./assets/img/protfolio_4.jpg"
+                  alt="Nhà Phố Master Thiên Kim - Mordern Classic"
+                  class="portfolio-item__img"
+                />
+              </figure>
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">
+                  Nhà Phố Master Thiên Kim - Mordern Classic
+                </h3>
+                <p class="portfolio-item__desc">
+                  Không gian nghỉ dưỡng đẳng cấp quốc tế
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="portfolio-item"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <figure class="portfolio-item__thumb">
+                <img
+                  src="./assets/img/protfolio_4.jpg"
+                  alt="Biệt thự Victoria - Modern Classic
+"
+                  class="portfolio-item__img"
+                />
+              </figure>
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">
+                  Biệt thự Victoria - Modern Classic
+                </h3>
                 <p class="portfolio-item__desc">
                   Không gian nghỉ dưỡng đẳng cấp quốc tế
                 </p>
@@ -385,15 +463,15 @@
                 <div class="contact-info__icon">📍</div>
                 <h3 class="contact-info__title">Địa chỉ</h3>
                 <p class="contact-info__text">
-                  123 Nguyễn Văn Trỗi<br />
-                  Quận Phú Nhuận, TP.HCM
+                  Số 10 Đường 52-BTT<br />
+                  Phường Bình Trưng, TPHCM
                 </p>
               </div>
               <div class="contact-info__item">
                 <div class="contact-info__icon">📞</div>
                 <h3 class="contact-info__title">Hotline</h3>
                 <p class="contact-info__text">
-                  (+84) 28 7300 9999<br />
+                  (+84) 078 7878 777<br />
                   Hỗ trợ 24/7
                 </p>
               </div>
@@ -401,7 +479,7 @@
                 <div class="contact-info__icon">✉️</div>
                 <h3 class="contact-info__title">Email</h3>
                 <p class="contact-info__text">
-                  contact@ludesign.vn<br />
+                  ludesign.vn@gmail.com<br />
                   Tư vấn miễn phí
                 </p>
               </div>
@@ -421,10 +499,34 @@
             Nam
           </p>
           <div class="footer__socials">
-            <a href="#" class="footer__social">📘</a>
-            <a href="#" class="footer__social">📷</a>
-            <a href="#" class="footer__social">🎵</a>
-            <a href="#" class="footer__social">📺</a>
+            <a
+              href="https://www.facebook.com/noithatcaocapLudesign"
+              target="_blank"
+              class="footer__social"
+            >
+              <img src="./assets/icon/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/lu_interior/"
+              target="_blank"
+              class="footer__social"
+            >
+              <img src="./assets/icon/instagram.svg" alt="instagram" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/cta-office-design-and-build/"
+              target="_blank"
+              class="footer__social"
+            >
+              <img src="./assets/icon/linkedin.svg" alt="linkedin" />
+            </a>
+            <a
+              href="https://www.tiktok.com/@thietkenoithatludesign"
+              target="_blank"
+              class="footer__social"
+            >
+              <img src="./assets/icon/tiktok.svg" alt="tiktok" />
+            </a>
           </div>
           <div class="footer__copyright">
             © 2024 LU Design. Tất cả quyền được bảo lưu.
